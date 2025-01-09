@@ -1,0 +1,18 @@
+1、import javax.swing.JOptionPane;
+        `javax.swing.JOptionPane`是Java Swing库中的一个类，它提供了一种简单的方式来显示消息对话框、确认对话框、输入对话框和其他类型的对话框。
+        通过使用`JOptionPane`类，可以在图形用户界面中显示各种类型的消息框，例如警告、错误、信息等。还可以使用它来提示用户进行输入、进行确认操作等。
+        在给出的代码中，`import javax.swing.JOptionPane;`语句导入了`JOptionPane`类，以便在`Error`类中使用它显示提示框。
+        在`isInteger`方法中，通过调用`showMessageDialog`方法，可以在弹出的对话框中显示一条消息，以向用户提供有关输入的反馈。
+        例如，在以下代码中使用了`JOptionPane.showMessageDialog`方法显示一个提示框，内容为"Hello, World!":
+        ```java
+        import javax.swing.JOptionPane;
+        public class Example {
+        public static void main(String[] args) {
+        JOptionPane.showMessageDialog(null, "Hello, World!"); // 显示一个消息框，内容为"Hello, World!"
+        }
+        }
+        ```
+        这里的`showMessageDialog`方法的第一个参数为`null`，表示消息框将显示在默认位置。第二个参数是要显示的消息内容。
+
+
+2、
